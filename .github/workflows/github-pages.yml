@@ -31,7 +31,7 @@ jobs:
         with:
           persist-credentials: false
       - name: Build App
-        run: yarn install && yarn build.
+        run: yarn install && yarn build
 
   # Deployment job
   deploy:
